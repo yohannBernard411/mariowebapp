@@ -3,7 +3,7 @@ var url = require("url");
 var fs = require("fs");
 var gestionPage = require ('./gestionPage');
 
-const PORT = "8080"; 
+const PORT = process.env.PORT || 8080; 
 var serveur = http.createServer(traitReq);
 serveur.listen(PORT);
 

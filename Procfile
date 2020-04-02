@@ -1,1 +1,1 @@
-web: node ./js_client main.js
+web: node serveur.js
